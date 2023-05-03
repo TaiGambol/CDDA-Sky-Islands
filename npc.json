@@ -1,0 +1,35 @@
+[
+  {
+    "type": "npc",
+    "id": "thug_marked",
+    "//": "Generic melee focused guard for the Hell's Raiders faction.",
+    "name_suffix": "Marked Thug",
+    "class": "NC_THUG",
+    "attitude": 10,
+    "mission": 8,
+    "chat": "TALK_DONE",
+    "faction": "no_faction"
+  },
+  {
+    "type": "npc",
+    "id": "bandit_marked",
+    "//": "Generic pistol/rifle focused guard for the Hell's Raiders faction.",
+    "name_suffix": "Marked Bandit",
+    "class": "NC_SCAVENGER",
+    "attitude": 10,
+    "mission": 8,
+    "chat": "TALK_DONE",
+    "faction": "no_faction"
+  },
+  {
+    "type": "npc",
+    "id": "assassin_marked",
+    "//": "EOC-specific, should not spawn outside of trigger events.",
+    "name_suffix": "Marked Assassin",
+    "class": "NC_BOUNTY_HUNTER",
+    "attitude": 10,
+    "mission": 8,
+    "chat": "TALK_DONE",
+    "faction": "no_faction"
+  }
+]

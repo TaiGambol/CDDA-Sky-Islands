@@ -29,7 +29,7 @@
     "color": "light_green",
     "use_action": {
       "type": "unpack",
-      "use_message": "The object's superposition collapses and it becomes a singular artifact!",
+	  "//": "'activation_message': 'The object's superposition collapses and it becomes a singular artifact!' <- Not currently functional",
       "group": "random_artifact_pool"
     }
   },

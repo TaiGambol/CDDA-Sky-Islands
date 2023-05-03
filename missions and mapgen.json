@@ -905,7 +905,7 @@
     "value": 0,
     "start": {
       "assign_mission_target": { "var": { "global_val": "OM_missionspot" } },
-      "update_mapgen": { "place_npcs": [ { "class": "bandit", "x": [ 1, 22 ], "y": [ 1, 22 ], "target": true, "name": "Marked." } ] }
+      "update_mapgen": { "place_npcs": [ { "class": "bandit_marked", "x": [ 1, 22 ], "y": [ 1, 22 ], "target": true } ] }
     },
     "end": {
       "effect": [
@@ -937,7 +937,7 @@
     "value": 0,
     "start": {
       "assign_mission_target": { "var": { "global_val": "OM_missionspot" } },
-      "update_mapgen": { "place_npcs": [ { "class": "thug", "x": [ 1, 22 ], "y": [ 1, 22 ], "target": true, "name": "Marked." } ] }
+      "update_mapgen": { "place_npcs": [ { "class": "thug_marked", "x": [ 1, 22 ], "y": [ 1, 22 ], "target": true } ] }
     },
     "end": {
       "effect": [
@@ -971,9 +971,9 @@
       "assign_mission_target": { "var": { "global_val": "OM_missionspot" } },
       "update_mapgen": {
         "place_npcs": [
-          { "class": "thug", "x": [ 1, 22 ], "y": [ 1, 22 ], "name": "Marked.", "repeat": [ 1, 2 ] },
-          { "class": "bandit", "x": [ 1, 22 ], "y": [ 1, 22 ], "name": "Marked.", "repeat": [ 0, 1 ] },
-          { "class": "bandit", "x": [ 1, 22 ], "y": [ 1, 22 ], "target": true, "name": "Marked." }
+          { "class": "thug_marked", "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 2 ] },
+          { "class": "bandit_marked", "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 0, 1 ] },
+          { "class": "bandit_marked", "x": [ 1, 22 ], "y": [ 1, 22 ], "target": true }
         ]
       }
     },

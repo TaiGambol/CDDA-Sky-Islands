@@ -84,23 +84,23 @@
       "AURA",
       "TARDIS"
     ],
-    "bashing": 0,
-    "cutting": 0,
     "to_hit": 0,
     "warmth": 0,
     "weight": "400 g",
     "volume": "2000 ml",
     "longest_side": "11 meter",
     "description": "This is a template you shouldn't actually see.",
-    "armor": [
-      {
-        "coverage": 0,
-        "covers": [ "torso" ],
-        "material": [ "alien_resin" ],
-        "material_thickness": 1,
-        "environmental_protection": 0
-      }
-    ]
+    "armor_data": { 
+	  "armor": [
+        {
+		  "material": [ { "type": "alien_resin", "covered_by_mat": 100, "thickness": 1.0 } ],
+          "encumbrance": 0,
+          "coverage": 0,
+          "covers": [ "torso" ]
+        }
+      ]
+	},
+    "melee_damage": { "bash": 0 }
   },
   {
     "type": "ARMOR",

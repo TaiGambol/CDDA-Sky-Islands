@@ -8,7 +8,7 @@
     "time": "120 m",
     "components": [ [ [ "warptoken", 10 ] ], [ [ "stick", 2 ], [ "twig", 6 ] ], [ [ "leaves", 8 ] ], [ [ "material_soil", 2 ] ] ],
     "pre_terrain": "t_dirtmound",
-    "post_terrain": "t_infinitree1",
+    "post_terrain": "f_infinitree1",
     "activity_level": "LIGHT_EXERCISE"
   },
   {
